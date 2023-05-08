@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2023-05-08T18:18:44.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MM4vHf7SXvmr9JN40DpO" version="21.2.9" type="device">
+  <diagram name="第 1 页" id="08-J9oIiYcL65gr-Gvwt">
+    <mxGraphModel dx="1553" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wgtmfELWsiF-b420Okmm-1" value="空间清理首页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-3" value="可排序页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-4" target="wgtmfELWsiF-b420Okmm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-4" value="是否首次进入&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="200" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-9" value="获取默认排序方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-1" target="wgtmfELWsiF-b420Okmm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-3" target="wgtmfELWsiF-b420Okmm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-20" value="是" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-21" value="否" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-22" target="wgtmfELWsiF-b420Okmm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-22" value="读取上次排序方式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="350" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-23" target="wgtmfELWsiF-b420Okmm-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-23" value="加载排序UI" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="500" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-26" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="560" />
+              <mxPoint x="510" y="560" />
+              <mxPoint x="510" y="570" />
+              <mxPoint x="510" y="570" />
+              <mxPoint x="460" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-33" value="读取扫描器对应数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="660" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wgtmfELWsiF-b420Okmm-39" target="wgtmfELWsiF-b420Okmm-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-39" value="数据排序及组装成absitem" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="830" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wgtmfELWsiF-b420Okmm-40" value="加载或刷新当前页面" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="990" width="115" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
